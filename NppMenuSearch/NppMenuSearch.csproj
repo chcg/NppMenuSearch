@@ -10,11 +10,10 @@
     <RootNamespace>NppMenuSearch</RootNamespace>
     <AssemblyName>NppMenuSearch</AssemblyName>
     <OutputPath>bin\Debug\</OutputPath>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
-	
-	<!-- Workaround for an annoyance in RGiesecke.DllExport.MSBuild.ExportTaskImplementation<TTask>.ValidateToolPath(...): 
+    <!-- Workaround for an annoyance in RGiesecke.DllExport.MSBuild.ExportTaskImplementation<TTask>.ValidateToolPath(...): 
 		- By default, ildasm.exe is searched in the TargetFrameworkVersion tools directory
 		- If that is not found (because it is not the TargetFrameworkSDKToolsDirectory), an error is generated:
 			"Microsoft.Build.Utilities.ToolLocationHelper could not find ildasm.exe"
